@@ -1349,7 +1349,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< Updated upstream
   m_text: "A game by: \n\n\nWIth assets from:"
+=======
+  m_text: "A game by: \nC-H Huusko\n\nWIth assets from:"
+>>>>>>> Stashed changes
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c76602f7b0628ec498628b01258a838b, type: 2}
   m_sharedMaterial: {fileID: 8587936279906697541, guid: c76602f7b0628ec498628b01258a838b, type: 2}
