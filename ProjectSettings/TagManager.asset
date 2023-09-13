@@ -10,6 +10,8 @@ TagManager:
   - RedPotion
   - Spikes
   - Key
+  - SilverCoin
+  - JumpPowerUp
   layers:
   - Default
   - TransparentFX

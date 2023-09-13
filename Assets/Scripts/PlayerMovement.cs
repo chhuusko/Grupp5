@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private AudioClip pickupSound;
     [SerializeField] private AudioClip[] jumpSounds;
     [SerializeField] private GameObject keyParticles, dustParticles;
+    [SerializeField] private bool doubleJumpSkill;
 
     [SerializeField] private Slider healthSlider;
     [SerializeField] private Image fillColor;
@@ -28,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
     private int startingHealth = 5;
     private int currentHealth = 0;
     public int keysCollected = 0;
+    private bool canDoubleJump;
 
     private Rigidbody2D rgbd;
     private SpriteRenderer rend;
@@ -61,11 +63,22 @@ public class PlayerMovement : MonoBehaviour
         if (horizontalValue > 0)
         {
             FlipSprite(false);
-        }  
+        }
 
-        if (Input.GetButtonDown("Jump") && CheckIfGrounded() == true)
+        if (Input.GetButtonDown("Jump"))
         {
-            Jump();
+            if (CheckIfGrounded() == true)
+            {
+                Jump();
+                canDoubleJump = true;
+            }
+           
+            else if(canDoubleJump && doubleJumpSkill)
+            {
+                rgbd.velocity = Vector2.zero;
+                rgbd.AddForce(new Vector2(0, jumpForce * 0.7f));
+                canDoubleJump = false;
+            }
         }
 
         anim.SetFloat("MoveSpeed", Mathf.Abs(rgbd.velocity.x));
@@ -103,6 +116,12 @@ public class PlayerMovement : MonoBehaviour
         {
             RestoreHealth(other.gameObject);
            
+        }
+
+        if (other.CompareTag("JumpPowerUp"))
+        {
+            doubleJumpSkill = true;
+            other.gameObject.SetActive(false);
         }
     }
 
