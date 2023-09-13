@@ -5,17 +5,26 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
+    [SerializeField] private int damage = 1;
     [SerializeField] private float moveSpeed = 2.0f;
     [SerializeField] private float bounciness = 100f;
     [SerializeField] private float knockbackForce = 200f;
     [SerializeField] private float upwardForce = 100f;
     [SerializeField] private int damageDealt = 1;
+    [SerializeField] private EnemyData data;
     private SpriteRenderer rend;
     private bool canMove = true;
 
     private void Start()
     {
         rend = GetComponent<SpriteRenderer>();  
+    }
+
+    private void SetEnemyValues()
+    {
+        GetComponent<Health>().SetHealth(data.hp, data.hp);
+        damage = data.damage;
+        moveSpeed = data.moveSpeed;
     }
 
     void FixedUpdate()
@@ -83,8 +92,14 @@ public class NewBehaviourScript : MonoBehaviour
             GetComponent<Rigidbody2D>().gravityScale = 0;
             GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             canMove = false;
-            Destroy(gameObject, 0.4f);   
-        }
-    } 
+            Destroy(gameObject, 0.4f);
 
+            if(other.GetComponent<Health>() != null)
+            {
+                other.GetComponent<Health>().Damage(damage);
+                this.GetComponent<Health>().Damage(10000);
+            }
+
+        }
+    }
 }
