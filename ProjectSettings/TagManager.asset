@@ -12,6 +12,9 @@ TagManager:
   - Key
   - SilverCoin
   - JumpPowerUp
+  - Ladder
+  - HiddenRoom
+  - HiddenRooms
   layers:
   - Default
   - TransparentFX
