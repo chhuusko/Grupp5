@@ -5,14 +5,9 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
 
-    [SerializeField] private int health = 5;
+    [SerializeField] private int health = 10;
 
-    private int MAX_HEALTH = 5;
-
-    void Update()
-    {
-       
-    }
+    private int MAX_HEALTH = 10;
 
     public void SetHealth(int maxHealth, int health)
     {

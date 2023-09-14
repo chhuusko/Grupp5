@@ -85,6 +85,12 @@ public class PlayerMovement : MonoBehaviour
         anim.SetFloat("VerticalSpeed", rgbd.velocity.y);
         anim.SetBool("IsGrounded", CheckIfGrounded());
 
+        if (Input.GetMouseButtonDown(0))
+        {
+            int randomNumber = Random.Range(2, 4);
+            GetComponent<Animator>().Play("PlayerAttack" + randomNumber);
+        }
+
     }
 
     private void FixedUpdate()

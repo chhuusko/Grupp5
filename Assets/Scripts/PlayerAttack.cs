@@ -18,10 +18,10 @@ public class PlayerAttack : MonoBehaviour
 
     void Update()
     {
+
         if (Input.GetMouseButtonDown(0))
         {
             Attack();
-            Debug.Log("Pressed left-click"); 
         }
 
         if (attacking)
@@ -42,6 +42,7 @@ public class PlayerAttack : MonoBehaviour
     {
         attacking = true;
         attackArea.SetActive(attacking);
+       
     }
 
 }

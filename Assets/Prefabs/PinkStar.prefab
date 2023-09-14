@@ -122,11 +122,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4a40a7369bc8b542ad5a6c1ca4a5f79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 1
   moveSpeed: 2
   bounciness: 350
   knockbackForce: 350
   upwardForce: 200
   damageDealt: 1
+  data: {fileID: 11400000, guid: 54282e7910033d542b277a82062669e8, type: 2}
 --- !u!50 &11024188107470015
 Rigidbody2D:
   serializedVersion: 4
