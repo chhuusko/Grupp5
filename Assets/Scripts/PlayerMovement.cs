@@ -57,12 +57,12 @@ public class PlayerMovement : MonoBehaviour
 
         if(horizontalValue < 0) 
         {
-            FlipSprite(true);
+            transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0));
         }
     
         if (horizontalValue > 0)
         {
-            FlipSprite(false);
+            transform.rotation = Quaternion.Euler(new Vector3(0, 0, 0));
         }
 
         if (Input.GetButtonDown("Jump"))
