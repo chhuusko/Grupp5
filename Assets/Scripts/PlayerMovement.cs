@@ -4,6 +4,7 @@ using System.Transactions;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -51,7 +52,9 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {          
-        horizontalValue = Input.GetAxis("Horizontal");    
+        horizontalValue = Input.GetAxis("Horizontal");
+
+        int scene = SceneManager.GetActiveScene().buildIndex;
         
         // Flips the sprite to face the direction we are moving it
 
@@ -85,12 +88,16 @@ public class PlayerMovement : MonoBehaviour
         anim.SetFloat("VerticalSpeed", rgbd.velocity.y);
         anim.SetBool("IsGrounded", CheckIfGrounded());
 
-        if (Input.GetMouseButtonDown(0))
+        if (scene == 3)
         {
-            int randomNumber = Random.Range(2, 4);
-            GetComponent<Animator>().Play("PlayerAttack" + randomNumber);
+            if (Input.GetMouseButtonDown(0))
+            {
+                int randomNumber = Random.Range(2, 4);
+                GetComponent<Animator>().Play("PlayerAttack" + randomNumber);
+            }
         }
-
+        else
+            return;
     }
 
     private void FixedUpdate()
