@@ -31,6 +31,9 @@ public class PlayerMovement : MonoBehaviour
     private int currentHealth = 0;
     public int keysCollected = 0;
     private bool canDoubleJump;
+    public float delay = 3;
+    float timer;
+    private bool isDead = false;
 
     private Rigidbody2D rgbd;
     private SpriteRenderer rend;
@@ -157,10 +160,16 @@ public class PlayerMovement : MonoBehaviour
     {
         currentHealth -= damageTaken;
         UpdateHealthBar();
+        anim.SetTrigger("Hit");
 
-        if(currentHealth <= 0)
+        if (currentHealth <= 0)
         {
-            Respawn();
+            if (!isDead)
+            {
+                anim.SetTrigger("Dead");
+                isDead = true;
+            }
+            
         }
     }
 
@@ -176,12 +185,18 @@ public class PlayerMovement : MonoBehaviour
         canMove = true;
     }
 
+    private void invokeRespawn()
+    {
+        Invoke("Respawn", 0.35f);
+    }
+
     private void Respawn()
     {
         currentHealth = startingHealth;
         UpdateHealthBar();
         transform.position = spawnPosition.position;
         rgbd.velocity  = Vector2.zero;
+        isDead = false;
     }
 
     private void RestoreHealth(GameObject redPotion)

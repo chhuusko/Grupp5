@@ -14,9 +14,12 @@ public class NewBehaviourScript : MonoBehaviour
     [SerializeField] private EnemyData data;
     private SpriteRenderer rend;
     private bool canMove = true;
+    private Animator anim;
+    private Rigidbody2D rgbd;
 
     void Start()
     {
+        anim = GetComponent<Animator>();
         rend = GetComponent<SpriteRenderer>();  
         SetEnemyValues();
     }
@@ -97,7 +100,7 @@ public class NewBehaviourScript : MonoBehaviour
         {
             other.GetComponent<Rigidbody2D>().velocity = new Vector2(other.GetComponent<Rigidbody2D>().velocity.x, 0);
             other.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, bounciness));
-            GetComponent<Animator>().SetTrigger("Hit");
+            anim.SetTrigger("Hit");
             GetComponent<BoxCollider2D>().enabled = false;
             GetComponent<CapsuleCollider2D>().enabled = false;
             GetComponent<Rigidbody2D>().gravityScale = 0;
@@ -106,5 +109,18 @@ public class NewBehaviourScript : MonoBehaviour
             Destroy(gameObject, 0.4f);
 
         }
+
+        if (other.CompareTag("AttackArea"))
+        {
+            anim.SetTrigger("Dead");
+            moveSpeed = 0;
+        }
     }
+    
+    public void destroy()
+    {
+        Destroy(gameObject, 1f);
+    }
+
 }
+

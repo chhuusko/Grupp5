@@ -15,6 +15,7 @@ TagManager:
   - Ladder
   - HiddenRoom
   - HiddenRooms
+  - AttackArea
   layers:
   - Default
   - TransparentFX

@@ -71995,6 +71995,7 @@ MonoBehaviour:
   redHealth: {r: 0.6132076, g: 0.10123709, b: 0.10123709, a: 1}
   keyText: {fileID: 1858760240}
   keysCollected: 0
+  delay: 3
 --- !u!70 &1609025714
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -87610,7 +87611,7 @@ Transform:
   m_GameObject: {fileID: 1991000549}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.2449203, y: -2.9126437, z: 0.0015270337}
+  m_LocalPosition: {x: -4.2449203, y: -2.9126437, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

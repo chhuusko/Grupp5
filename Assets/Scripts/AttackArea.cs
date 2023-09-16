@@ -13,10 +13,5 @@ public class AttackArea : MonoBehaviour
             Health health = other.GetComponent<Health>();
             health.Damage(damage);
         }
-
-        if (other.CompareTag("PinkStar"))
-        {
-            Destroy(other.gameObject, 0.4f);
-        }
     }
 }

@@ -9093,7 +9093,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 247613384}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -69194,7 +69194,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1355557923}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
@@ -79116,6 +79116,7 @@ MonoBehaviour:
   redHealth: {r: 0.6132076, g: 0.10123709, b: 0.10123709, a: 1}
   keyText: {fileID: 1858760240}
   keysCollected: 10
+  delay: 3
 --- !u!70 &1653087871
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -94990,7 +94991,7 @@ Transform:
   m_GameObject: {fileID: 1991000549}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.29, y: 4.27, z: 0.0015270337}
+  m_LocalPosition: {x: -7.29, y: 4.27, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
