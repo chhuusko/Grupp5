@@ -28,7 +28,7 @@ public class PlayerAttack : MonoBehaviour
         {
             Attack();
             int randomValue = Random.Range(0, attackSounds.Length);
-            audioSource.PlayOneShot(attackSounds[randomValue], 0.20f);
+            audioSource.PlayOneShot(attackSounds[randomValue], 0.3f);
         }
 
         if (attacking)
