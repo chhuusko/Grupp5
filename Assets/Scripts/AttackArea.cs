@@ -12,6 +12,7 @@ public class AttackArea : MonoBehaviour
         {
             Health health = other.GetComponent<Health>();
             health.Damage(damage);
+           
         }
     }
 }

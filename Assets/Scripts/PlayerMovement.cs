@@ -13,7 +13,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Transform leftFoot, rightFoot;
     [SerializeField] private Transform spawnPosition;
     [SerializeField] private LayerMask whatIsGround;
-    [SerializeField] private AudioClip pickupSound;
+    [SerializeField] private AudioClip pickupKeySound;
+    [SerializeField] private AudioClip pickupPowerUpSound;
+    [SerializeField] private AudioClip pickupPotionSound;
     [SerializeField] private AudioClip[] jumpSounds;
     [SerializeField] private GameObject keyParticles, dustParticles;
     [SerializeField] private bool doubleJumpSkill;
@@ -83,6 +85,8 @@ public class PlayerMovement : MonoBehaviour
             {
                 rgbd.velocity = Vector2.zero;
                 rgbd.AddForce(new Vector2(0, jumpForce * 0.7f));
+                int randomValue = Random.Range(0, jumpSounds.Length);
+                audioSource.PlayOneShot(jumpSounds[randomValue], 0.20f);
                 canDoubleJump = false;
             }
         }
@@ -123,7 +127,7 @@ public class PlayerMovement : MonoBehaviour
             keysCollected++;
             keyText.text = "" + keysCollected;
             audioSource.pitch = Random.Range(0.8f, 1.2f);
-            audioSource.PlayOneShot(pickupSound, 0.25f);
+            audioSource.PlayOneShot(pickupKeySound, 0.25f);
             Instantiate(keyParticles, other.transform.position, Quaternion.identity);
             
         }
@@ -131,11 +135,12 @@ public class PlayerMovement : MonoBehaviour
         if (other.CompareTag("RedPotion"))
         {
             RestoreHealth(other.gameObject);
-           
         }
 
         if (other.CompareTag("JumpPowerUp"))
         {
+            audioSource.pitch = Random.Range(0.8f, 1.2f);
+            audioSource.PlayOneShot(pickupPowerUpSound, 0.25f);
             doubleJumpSkill = true;
             other.gameObject.SetActive(false);
         }
@@ -210,6 +215,8 @@ public class PlayerMovement : MonoBehaviour
             int healthToRestore = redPotion.GetComponent<RedPotion>().healthAmount;
             currentHealth += healthToRestore;
             UpdateHealthBar();
+            audioSource.pitch = Random.Range(1.4f, 1.6f);
+            audioSource.PlayOneShot(pickupPotionSound, 0.6f);
             Destroy(redPotion);
 
             if(currentHealth >= startingHealth)

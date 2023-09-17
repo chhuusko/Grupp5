@@ -9,12 +9,15 @@ public class QuestChecked : MonoBehaviour
     [SerializeField] private int questGoal = 10;
     [SerializeField] private int levelToLoad;
     [SerializeField] private float timeToLoad = 3.0f;
+    private AudioSource audioSource;
+    [SerializeField] private AudioClip doorOpeningSound;
 
     private Animator anim;
     private bool levelIsLoading = false;
     private void Start()
     {
         anim = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -28,8 +31,13 @@ public class QuestChecked : MonoBehaviour
                 finishedText.SetActive(true);
 
 
-                if(SceneManager.GetActiveScene().buildIndex == 1)              
+                if(SceneManager.GetActiveScene().buildIndex == 1)
+                {
                     anim.SetTrigger("Door");
+                    audioSource.pitch = Random.Range(0.7f, 1.1f);
+                    audioSource.PlayOneShot(doorOpeningSound, 0.5f);
+                }              
+                    
                                
                 if (SceneManager.GetActiveScene().buildIndex == 2)
                     anim.SetTrigger("Chest");

@@ -6,14 +6,19 @@ public class Pillar : MonoBehaviour
 {
     private Animator anim;
     private bool hasPlayedAnimation = false;
+    private AudioSource audioSource;
+    [SerializeField] private AudioClip chainPulledSound;
+
     private void Start()
     {
         anim = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.CompareTag("Player") && !hasPlayedAnimation)
         {
+            audioSource.PlayOneShot(chainPulledSound, 0.2f);
             hasPlayedAnimation = true;
             anim.SetTrigger("Move");
         }

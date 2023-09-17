@@ -3139,6 +3139,7 @@ GameObject:
   m_Component:
   - component: {fileID: 85976147}
   - component: {fileID: 85976148}
+  - component: {fileID: 85976149}
   m_Layer: 0
   m_Name: Front Palm Tree Top 01 (16)
   m_TagString: Untagged
@@ -3213,6 +3214,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &85976149
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85976146}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e321777c2b7c2b142a725dffd0dbaa9f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &86146746
 GameObject:
   m_ObjectHideFlags: 0
@@ -5586,6 +5608,7 @@ GameObject:
   m_Component:
   - component: {fileID: 153385026}
   - component: {fileID: 153385025}
+  - component: {fileID: 153385027}
   m_Layer: 0
   m_Name: Front Palm Tree Top 01 (5)
   m_TagString: Untagged
@@ -5660,6 +5683,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 307481855}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &153385027
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153385024}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8a883884a00dade4daeb8eb62b45a054, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &153982551
 GameObject:
   m_ObjectHideFlags: 0
@@ -6846,6 +6890,7 @@ GameObject:
   m_Component:
   - component: {fileID: 177274112}
   - component: {fileID: 177274111}
+  - component: {fileID: 177274113}
   m_Layer: 0
   m_Name: Front Palm Tree Top 01 (1)
   m_TagString: Untagged
@@ -6920,6 +6965,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 307481855}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &177274113
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177274110}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 25e93150e45a7f342bf7e20b849a2ebc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &183511041
 GameObject:
   m_ObjectHideFlags: 0
@@ -7719,6 +7785,7 @@ GameObject:
   m_Component:
   - component: {fileID: 226537278}
   - component: {fileID: 226537279}
+  - component: {fileID: 226537280}
   m_Layer: 0
   m_Name: Front Palm Tree Top 01 (17)
   m_TagString: Untagged
@@ -7793,6 +7860,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &226537280
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226537277}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7baef6e232bf365469b9b673e6ea4148, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &227346078
 GameObject:
   m_ObjectHideFlags: 0
@@ -14751,6 +14839,7 @@ GameObject:
   m_Component:
   - component: {fileID: 474226126}
   - component: {fileID: 474226127}
+  - component: {fileID: 474226128}
   m_Layer: 0
   m_Name: Front Palm Tree Top 01 (13)
   m_TagString: Untagged
@@ -14825,6 +14914,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &474226128
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474226125}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dd5c88f49a2414846985b370b087fbfd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &474244053 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2155178272522078634, guid: c9b1cab68350a6440a4f5fdc0992533a, type: 3}
@@ -22757,6 +22867,7 @@ GameObject:
   m_Component:
   - component: {fileID: 711702045}
   - component: {fileID: 711702046}
+  - component: {fileID: 711702047}
   m_Layer: 0
   m_Name: Front Palm Tree Top 01 (22)
   m_TagString: Untagged
@@ -22831,6 +22942,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &711702047
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711702044}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fa455cc70a6ed4f409a6599873d4d225, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &713934066
 GameObject:
   m_ObjectHideFlags: 0
@@ -25786,6 +25918,7 @@ GameObject:
   m_Component:
   - component: {fileID: 795367665}
   - component: {fileID: 795367666}
+  - component: {fileID: 795367667}
   m_Layer: 0
   m_Name: Front Palm Tree Top 01 (30)
   m_TagString: Untagged
@@ -25860,6 +25993,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &795367667
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 795367664}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 82df703dd576f0f47b38ffa24674c3a9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &795469457
 GameObject:
   m_ObjectHideFlags: 0
@@ -29642,6 +29796,7 @@ GameObject:
   m_Component:
   - component: {fileID: 902876274}
   - component: {fileID: 902876273}
+  - component: {fileID: 902876275}
   m_Layer: 0
   m_Name: Front Palm Tree Top 01 (6)
   m_TagString: Untagged
@@ -29716,6 +29871,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 307481855}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &902876275
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902876272}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f338419af8e8b7d4486da31a3e448f49, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &902928112
 GameObject:
   m_ObjectHideFlags: 0
@@ -39013,6 +39189,7 @@ GameObject:
   - component: {fileID: 1146934774}
   - component: {fileID: 1146934777}
   - component: {fileID: 1146934778}
+  - component: {fileID: 1146934779}
   m_Layer: 0
   m_Name: QuestCheckerDoor
   m_TagString: Untagged
@@ -39171,6 +39348,103 @@ MonoBehaviour:
   questGoal: 0
   levelToLoad: 2
   timeToLoad: 3
+  doorOpeningSound: {fileID: 8300000, guid: 74d522a3158fc89439492c2f3362ec6e, type: 3}
+--- !u!82 &1146934779
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146934773}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1147811125
 GameObject:
   m_ObjectHideFlags: 0
@@ -39769,6 +40043,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1161578205}
   - component: {fileID: 1161578204}
+  - component: {fileID: 1161578206}
   m_Layer: 0
   m_Name: Front Palm Tree Top 01 (4)
   m_TagString: Untagged
@@ -39843,6 +40118,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 307481855}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1161578206
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161578203}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 609e8448b55094c4bbd74ba2b3c26ffc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1163098504
 GameObject:
   m_ObjectHideFlags: 0
@@ -40777,6 +41073,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1196690084}
   - component: {fileID: 1196690083}
+  - component: {fileID: 1196690085}
   m_Layer: 0
   m_Name: Front Palm Tree Top 01 (7)
   m_TagString: Untagged
@@ -40851,6 +41148,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 307481855}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1196690085
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196690082}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 79a68bdeb4a36a548b3a4aeb81e0a4d6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1198393883
 GameObject:
   m_ObjectHideFlags: 0
@@ -43462,6 +43780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1264885483}
   - component: {fileID: 1264885484}
+  - component: {fileID: 1264885485}
   m_Layer: 0
   m_Name: Front Palm Tree Top 01 (11)
   m_TagString: Untagged
@@ -43536,6 +43855,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1264885485
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264885482}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bedb39db5cd14cc459687f2b1b1631cf, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1264985594
 GameObject:
   m_ObjectHideFlags: 0
@@ -44077,6 +44417,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1280593688}
   - component: {fileID: 1280593689}
+  - component: {fileID: 1280593690}
   m_Layer: 0
   m_Name: Front Palm Tree Top 01 (20)
   m_TagString: Untagged
@@ -44151,6 +44492,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1280593690
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280593687}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d2c9d80d279f30249b4e8404d20eacaf, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1281516089
 GameObject:
   m_ObjectHideFlags: 0
@@ -45602,90 +45964,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1330735294
+--- !u!1 &1330735294 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 736949575686272087, guid: 07a4912dfcf78e14fbd6abed5a0fcb80, type: 3}
+  m_PrefabInstance: {fileID: 7627183981138397095}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1330735296}
-  - component: {fileID: 1330735295}
-  m_Layer: 0
-  m_Name: Front Palm Tree Top 01
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &1330735295
-SpriteRenderer:
+--- !u!4 &1330735296 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3190128344784115203, guid: 07a4912dfcf78e14fbd6abed5a0fcb80, type: 3}
+  m_PrefabInstance: {fileID: 7627183981138397095}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1330735297
+Animator:
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1330735294}
   m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1557039905
-  m_SortingLayer: 1
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 581a3e5df06ce294b92ea405e8ea84e8, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1.21875, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1330735296
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1330735294}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.91, y: -1.6669999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 307481855}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bb0d28c85ee846448b07f9e429b833f0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1338224489
 GameObject:
   m_ObjectHideFlags: 0
@@ -46349,6 +46658,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1358699299}
   - component: {fileID: 1358699298}
+  - component: {fileID: 1358699300}
   m_Layer: 0
   m_Name: Front Palm Tree Top 01 (10)
   m_TagString: Untagged
@@ -46423,6 +46733,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 307481855}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1358699300
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358699297}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d48e425ae64bce247beb6cdd5701d20b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1359391204
 GameObject:
   m_ObjectHideFlags: 0
@@ -67169,6 +67500,7 @@ GameObject:
   - component: {fileID: 1467939763}
   - component: {fileID: 1467939762}
   - component: {fileID: 1467939766}
+  - component: {fileID: 1467939767}
   m_Layer: 10
   m_Name: Pillar
   m_TagString: Ground
@@ -67319,6 +67651,103 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7c486a559e979746bcf1ce5298678b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  chainPulledSound: {fileID: 8300000, guid: 017861525ca2da9458aa7d4756599ab2, type: 3}
+--- !u!82 &1467939767
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467939761}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0.2
+  m_Pitch: 1.05
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1470965146
 GameObject:
   m_ObjectHideFlags: 0
@@ -68999,90 +69428,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1528951128
+--- !u!1 &1528951128 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 1032268934334856026, guid: 4553a96dea4847c448815d42bca209b1, type: 3}
+  m_PrefabInstance: {fileID: 3488189192810918550}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1528951129}
-  - component: {fileID: 1528951130}
-  m_Layer: 0
-  m_Name: Front Palm Tree Top 01 (26)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1528951129
+--- !u!4 &1528951129 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 1433035299588614059, guid: 4553a96dea4847c448815d42bca209b1, type: 3}
+  m_PrefabInstance: {fileID: 3488189192810918550}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1528951128}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 33.48, y: 6.91, z: -1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 307481855}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1528951130
-SpriteRenderer:
+--- !u!95 &1528951131
+Animator:
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1528951128}
   m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1557039905
-  m_SortingLayer: 1
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 581a3e5df06ce294b92ea405e8ea84e8, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1.21875, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ca2a0f3a5917aa94c812bacce929f225, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1529713207
 GameObject:
   m_ObjectHideFlags: 0
@@ -71976,7 +72352,9 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 1088
-  pickupSound: {fileID: 8300000, guid: 967524a7496dbe04d86d4761808f9c9b, type: 3}
+  pickupKeySound: {fileID: 8300000, guid: 967524a7496dbe04d86d4761808f9c9b, type: 3}
+  pickupPowerUpSound: {fileID: 8300000, guid: f7befda71afc31841a78aafecc2c0789, type: 3}
+  pickupPotionSound: {fileID: 8300000, guid: e76ab69de42e46546abfe5079811d974, type: 3}
   jumpSounds:
   - {fileID: 8300000, guid: dc22e2b83dc30c248940120bda78f942, type: 3}
   - {fileID: 8300000, guid: c00c6c8ea7c491548b2ee325377e7e26, type: 3}
@@ -72893,6 +73271,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1620844944}
   - component: {fileID: 1620844945}
+  - component: {fileID: 1620844946}
   m_Layer: 0
   m_Name: Front Palm Tree Top 01 (2)
   m_TagString: Untagged
@@ -72967,6 +73346,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1620844946
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620844943}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 89126e177d483814ea418d8c45b94dcc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &1626681743 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2155178272522078634, guid: c9b1cab68350a6440a4f5fdc0992533a, type: 3}
@@ -73820,6 +74220,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1662520749}
   - component: {fileID: 1662520750}
+  - component: {fileID: 1662520751}
   m_Layer: 0
   m_Name: Front Palm Tree Top 01 (33)
   m_TagString: Untagged
@@ -73894,6 +74295,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1662520751
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662520748}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f12e626a00219e5458045aa52ad2e8d3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1665220333
 GameObject:
   m_ObjectHideFlags: 0
@@ -77085,6 +77507,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1681442991}
   - component: {fileID: 1681442992}
+  - component: {fileID: 1681442993}
   m_Layer: 0
   m_Name: Front Palm Tree Top 01 (28)
   m_TagString: Untagged
@@ -77159,6 +77582,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1681442993
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681442990}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5e44506af2ff2b84198e7eb2c61a55a0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1686211061
 GameObject:
   m_ObjectHideFlags: 0
@@ -78827,6 +79271,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1737738773}
   - component: {fileID: 1737738772}
+  - component: {fileID: 1737738774}
   m_Layer: 0
   m_Name: Front Palm Tree Top 01 (12)
   m_TagString: Untagged
@@ -78901,6 +79346,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 307481855}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1737738774
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737738771}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2d109435bd552df48b5e0ffe7904f6e5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1737809019
 GameObject:
   m_ObjectHideFlags: 0
@@ -80652,6 +81118,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1792986011}
   - component: {fileID: 1792986012}
+  - component: {fileID: 1792986013}
   m_Layer: 0
   m_Name: Front Palm Tree Top 01 (18)
   m_TagString: Untagged
@@ -80726,6 +81193,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1792986013
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792986010}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dd7b97990d072f1438d639875a0fa66d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1793623221
 GameObject:
   m_ObjectHideFlags: 0
@@ -82069,6 +82557,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1824008708}
   - component: {fileID: 1824008709}
+  - component: {fileID: 1824008710}
   m_Layer: 0
   m_Name: Front Palm Tree Top 01 (29)
   m_TagString: Untagged
@@ -82143,6 +82632,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1824008710
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824008707}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c2f9664d8e1c5b645be70eaa9fb11089, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1827224549
 GameObject:
   m_ObjectHideFlags: 0
@@ -90439,6 +90949,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2088941471}
   - component: {fileID: 2088941472}
+  - component: {fileID: 2088941473}
   m_Layer: 0
   m_Name: Front Palm Tree Top 01 (8)
   m_TagString: Untagged
@@ -90513,6 +91024,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &2088941473
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088941470}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ce624941beac67f45af2cef3b8fe6b88, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2092967567
 GameObject:
   m_ObjectHideFlags: 0
@@ -90523,6 +91055,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2092967568}
   - component: {fileID: 2092967569}
+  - component: {fileID: 2092967570}
   m_Layer: 0
   m_Name: Front Palm Tree Top 01 (21)
   m_TagString: Untagged
@@ -90597,6 +91130,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &2092967570
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092967567}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1c5d1525d3f5ca64992609ff61d861a8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2101254989
 GameObject:
   m_ObjectHideFlags: 0
@@ -92571,6 +93125,66 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7eabe9de929f8a48b6b8253780ab256, type: 3}
+--- !u!1001 &3488189192810918550
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 307481855}
+    m_Modifications:
+    - target: {fileID: 1032268934334856026, guid: 4553a96dea4847c448815d42bca209b1, type: 3}
+      propertyPath: m_Name
+      value: Front Palm Tree Top 01 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1433035299588614059, guid: 4553a96dea4847c448815d42bca209b1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 33.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 1433035299588614059, guid: 4553a96dea4847c448815d42bca209b1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 1433035299588614059, guid: 4553a96dea4847c448815d42bca209b1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1433035299588614059, guid: 4553a96dea4847c448815d42bca209b1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1433035299588614059, guid: 4553a96dea4847c448815d42bca209b1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1433035299588614059, guid: 4553a96dea4847c448815d42bca209b1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1433035299588614059, guid: 4553a96dea4847c448815d42bca209b1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1433035299588614059, guid: 4553a96dea4847c448815d42bca209b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1433035299588614059, guid: 4553a96dea4847c448815d42bca209b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1433035299588614059, guid: 4553a96dea4847c448815d42bca209b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1032268934334856026, guid: 4553a96dea4847c448815d42bca209b1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1528951131}
+  m_SourcePrefab: {fileID: 100100000, guid: 4553a96dea4847c448815d42bca209b1, type: 3}
 --- !u!1001 &3638965071344390945
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -92696,6 +93310,66 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9b1cab68350a6440a4f5fdc0992533a, type: 3}
+--- !u!1001 &7627183981138397095
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 307481855}
+    m_Modifications:
+    - target: {fileID: 736949575686272087, guid: 07a4912dfcf78e14fbd6abed5a0fcb80, type: 3}
+      propertyPath: m_Name
+      value: Front Palm Tree Top 01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3190128344784115203, guid: 07a4912dfcf78e14fbd6abed5a0fcb80, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 3190128344784115203, guid: 07a4912dfcf78e14fbd6abed5a0fcb80, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.6669999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3190128344784115203, guid: 07a4912dfcf78e14fbd6abed5a0fcb80, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3190128344784115203, guid: 07a4912dfcf78e14fbd6abed5a0fcb80, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3190128344784115203, guid: 07a4912dfcf78e14fbd6abed5a0fcb80, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3190128344784115203, guid: 07a4912dfcf78e14fbd6abed5a0fcb80, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3190128344784115203, guid: 07a4912dfcf78e14fbd6abed5a0fcb80, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3190128344784115203, guid: 07a4912dfcf78e14fbd6abed5a0fcb80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3190128344784115203, guid: 07a4912dfcf78e14fbd6abed5a0fcb80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3190128344784115203, guid: 07a4912dfcf78e14fbd6abed5a0fcb80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 736949575686272087, guid: 07a4912dfcf78e14fbd6abed5a0fcb80, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1330735297}
+  m_SourcePrefab: {fileID: 100100000, guid: 07a4912dfcf78e14fbd6abed5a0fcb80, type: 3}
 --- !u!1001 &8591334431289304158
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -92848,6 +93522,14 @@ PrefabInstance:
     - target: {fileID: 7504074725536048239, guid: 85498dcab1b255148bba1d0a96f83826, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7963280257117347770, guid: 85498dcab1b255148bba1d0a96f83826, type: 3}
+      propertyPath: m_Size.y
+      value: 0.2864554
+      objectReference: {fileID: 0}
+    - target: {fileID: 7963280257117347770, guid: 85498dcab1b255148bba1d0a96f83826, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.48154688
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

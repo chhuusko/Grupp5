@@ -16,12 +16,15 @@ public class NewBehaviourScript : MonoBehaviour
     private bool canMove = true;
     private Animator anim;
     private Rigidbody2D rgbd;
+    private AudioSource audioSource;
+    [SerializeField] private AudioClip attackHitSound;
 
     void Start()
     {
         anim = GetComponent<Animator>();
         rend = GetComponent<SpriteRenderer>();  
         SetEnemyValues();
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void SetEnemyValues()
@@ -114,6 +117,8 @@ public class NewBehaviourScript : MonoBehaviour
         {
             anim.SetTrigger("Dead");
             moveSpeed = 0;
+            audioSource.pitch = Random.Range(0.8f, 1.2f);
+            audioSource.PlayOneShot(attackHitSound, 0.3f);
         }
     }
     

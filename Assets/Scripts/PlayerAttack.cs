@@ -10,10 +10,15 @@ public class PlayerAttack : MonoBehaviour
 
     private float timeToAttack = 0.1f;
     private float timer = 0.1f;
- 
+    private AudioSource audioSource;
+    [SerializeField] private AudioClip attackHitSound;
+    [SerializeField] private AudioClip[] attackSounds;
+
+
     void Start()
     {
         attackArea = transform.GetChild(0).gameObject;
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -22,6 +27,8 @@ public class PlayerAttack : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             Attack();
+            int randomValue = Random.Range(0, attackSounds.Length);
+            audioSource.PlayOneShot(attackSounds[randomValue], 0.20f);
         }
 
         if (attacking)

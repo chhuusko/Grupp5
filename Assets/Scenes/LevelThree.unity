@@ -9496,7 +9496,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 767a68b8ee7bc73418e0990d27b6940d, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.25
+  m_Volume: 0.15
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -9651,6 +9651,10 @@ PrefabInstance:
       propertyPath: data
       value: 
       objectReference: {fileID: 11400000, guid: 54282e7910033d542b277a82062669e8, type: 2}
+    - target: {fileID: 3782747261905406536, guid: 41ae3364594e9e14cb4663832c840028, type: 3}
+      propertyPath: attackHitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: aaaf07f556901f44ea1bbe81c424f2b4, type: 3}
     - target: {fileID: 5594416197870906866, guid: 41ae3364594e9e14cb4663832c840028, type: 3}
       propertyPath: m_Name
       value: PinkStar
@@ -14769,6 +14773,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 3782747261905406536, guid: 41ae3364594e9e14cb4663832c840028, type: 3}
+      propertyPath: attackHitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: aaaf07f556901f44ea1bbe81c424f2b4, type: 3}
     - target: {fileID: 4723704085768082324, guid: 41ae3364594e9e14cb4663832c840028, type: 3}
       propertyPath: m_Size.x
       value: 0.45
@@ -48254,6 +48262,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b8d86a7a0c6e7346986c5efae9cb0e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackHitSound: {fileID: 0}
+  attackSounds:
+  - {fileID: 8300000, guid: 2473b3ddb7b793f4598482c2252949e6, type: 3}
+  - {fileID: 8300000, guid: f74b6cfc2e32d7b48b1aad1aa779813b, type: 3}
+  - {fileID: 8300000, guid: 4fc49da7feacc9842b09352d357762dd, type: 3}
+  - {fileID: 8300000, guid: 1c5bac35ae04a1941a7623156dcfeecb, type: 3}
+  - {fileID: 8300000, guid: 49ec26d445ffa9f4f87ce5b31dec7957, type: 3}
+  - {fileID: 8300000, guid: 89321a802199a3640bd85314db64c99a, type: 3}
+  - {fileID: 8300000, guid: 63bbedc3ba3c83147b65ec67c13a1c22, type: 3}
 --- !u!82 &1341411073
 AudioSource:
   m_ObjectHideFlags: 0
@@ -48391,7 +48408,9 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 1088
-  pickupSound: {fileID: 8300000, guid: 967524a7496dbe04d86d4761808f9c9b, type: 3}
+  pickupKeySound: {fileID: 8300000, guid: 967524a7496dbe04d86d4761808f9c9b, type: 3}
+  pickupPowerUpSound: {fileID: 8300000, guid: f7befda71afc31841a78aafecc2c0789, type: 3}
+  pickupPotionSound: {fileID: 8300000, guid: e76ab69de42e46546abfe5079811d974, type: 3}
   jumpSounds:
   - {fileID: 8300000, guid: dc22e2b83dc30c248940120bda78f942, type: 3}
   - {fileID: 8300000, guid: c00c6c8ea7c491548b2ee325377e7e26, type: 3}
@@ -48410,6 +48429,7 @@ MonoBehaviour:
   redHealth: {r: 0.6132076, g: 0.10123709, b: 0.10123709, a: 1}
   keyText: {fileID: 1858760240}
   keysCollected: 0
+  delay: 3
 --- !u!70 &1341411076
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -84426,6 +84446,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 3782747261905406536, guid: 41ae3364594e9e14cb4663832c840028, type: 3}
+      propertyPath: attackHitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: aaaf07f556901f44ea1bbe81c424f2b4, type: 3}
     - target: {fileID: 5594416197870906866, guid: 41ae3364594e9e14cb4663832c840028, type: 3}
       propertyPath: m_Name
       value: PinkStar
