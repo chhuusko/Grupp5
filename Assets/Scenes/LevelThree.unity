@@ -49113,12 +49113,12 @@ MonoBehaviour:
   pickupKeySound: {fileID: 8300000, guid: 967524a7496dbe04d86d4761808f9c9b, type: 3}
   pickupPowerUpSound: {fileID: 8300000, guid: f7befda71afc31841a78aafecc2c0789, type: 3}
   pickupPotionSound: {fileID: 8300000, guid: e76ab69de42e46546abfe5079811d974, type: 3}
+  takeDamageSound: {fileID: 8300000, guid: cad707f38bf5cad4abd3da6cc5e49b63, type: 3}
   jumpSounds:
   - {fileID: 8300000, guid: dc22e2b83dc30c248940120bda78f942, type: 3}
   - {fileID: 8300000, guid: c00c6c8ea7c491548b2ee325377e7e26, type: 3}
   - {fileID: 8300000, guid: 52fda7e31122cd442886a506c2b78412, type: 3}
   - {fileID: 8300000, guid: 677819ee63e6a2844bbfd63c69c3bae9, type: 3}
-  - {fileID: 8300000, guid: d77a3c0af4dbd1342b741409156bc2a0, type: 3}
   keyParticles: {fileID: 797759178336908839, guid: a2541c33a516f3348896d18318394bce, type: 3}
   dustParticles: {fileID: 38111291199769779, guid: 75448c714683a334892855c0852bab30, type: 3}
   doubleJumpSkill: 0
@@ -63724,6 +63724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chainPulledSound: {fileID: 0}
+  pillarThumpSound: {fileID: 0}
 --- !u!1 &1470965146
 GameObject:
   m_ObjectHideFlags: 0

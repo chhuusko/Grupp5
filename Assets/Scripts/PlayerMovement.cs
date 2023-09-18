@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private AudioClip pickupKeySound;
     [SerializeField] private AudioClip pickupPowerUpSound;
     [SerializeField] private AudioClip pickupPotionSound;
+    [SerializeField] private AudioClip takeDamageSound;
     [SerializeField] private AudioClip[] jumpSounds;
     [SerializeField] private GameObject keyParticles, dustParticles;
     [SerializeField] private bool doubleJumpSkill;
@@ -166,6 +167,8 @@ public class PlayerMovement : MonoBehaviour
         currentHealth -= damageTaken;
         UpdateHealthBar();
         anim.SetTrigger("Hit");
+        audioSource.pitch = Random.Range(0.8f, 1.2f);
+        audioSource.PlayOneShot(takeDamageSound, 1);
 
         if (currentHealth <= 0)
         {
@@ -195,7 +198,7 @@ public class PlayerMovement : MonoBehaviour
         Invoke("Respawn", 0.35f);
     }
 
-    private void Respawn()
+    public void Respawn()
     {
         currentHealth = startingHealth;
         UpdateHealthBar();

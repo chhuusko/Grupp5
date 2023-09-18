@@ -8,6 +8,7 @@ public class Pillar : MonoBehaviour
     private bool hasPlayedAnimation = false;
     private AudioSource audioSource;
     [SerializeField] private AudioClip chainPulledSound;
+    [SerializeField] private AudioClip pillarThumpSound;
 
     private void Start()
     {
@@ -23,4 +24,10 @@ public class Pillar : MonoBehaviour
             anim.SetTrigger("Move");
         }
     }
+
+    private void pillarThump()
+    {
+        audioSource.PlayOneShot(pillarThumpSound, 8);
+    }
+
 }
