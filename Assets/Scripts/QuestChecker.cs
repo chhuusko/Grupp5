@@ -8,18 +8,23 @@ public class QuestChecked : MonoBehaviour
     [SerializeField] private GameObject dialogueBox, finishedText, unfinishedText;
     [SerializeField] private int questGoal = 10;
     [SerializeField] private int levelToLoad;
-    [SerializeField] private float timeToLoad = 3.0f;
+    [SerializeField] private float timeToLoad = 3.5f;
     [SerializeField] private AudioClip doorOpeningSound;
     [SerializeField] private AudioClip chestOpeningSound;
     
     private AudioSource audioSource;
     private Animator anim;
+    private Animator animExitDoor;
     private bool levelIsLoading = false;
+    private GameObject ExitDoor;
+
+    DoorOpening doorOpeningScript;
 
     private void Start()
     {
         anim = GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>();
+        doorOpeningScript = GameObject.FindGameObjectWithTag("ExitDoor").GetComponent<DoorOpening>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -45,6 +50,7 @@ public class QuestChecked : MonoBehaviour
                 {
                     anim.SetTrigger("Chest");
                     audioSource.PlayOneShot(chestOpeningSound, 0.3f);
+                    doorOpeningScript.InvokeExitDoor();
                 }
 
                 Invoke("LoadNextLevel", timeToLoad);

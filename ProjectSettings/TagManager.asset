@@ -17,6 +17,7 @@ TagManager:
   - HiddenRooms
   - Boss
   - AttackArea
+  - ExitDoor
   layers:
   - Default
   - TransparentFX
