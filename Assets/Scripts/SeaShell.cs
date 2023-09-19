@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class SeaShell : MonoBehaviour
 {
-
     [SerializeField] private float jumpForce;
     [SerializeField] private AudioClip[] seaShellSounds;
+   
     private AudioSource audioSource;
-
 
     private void Start()
     {

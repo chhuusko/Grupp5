@@ -12,12 +12,15 @@ public class NewBehaviourScript : MonoBehaviour
     [SerializeField] private float upwardForce = 100f;
     [SerializeField] private int damageDealt = 1;
     [SerializeField] private EnemyData data;
+    [SerializeField] private AudioClip attackHitSound;
+    [SerializeField] private AudioClip pinkStarDeathSound;
+
     private SpriteRenderer rend;
     private bool canMove = true;
     private Animator anim;
     private Rigidbody2D rgbd;
     private AudioSource audioSource;
-    [SerializeField] private AudioClip attackHitSound;
+    
 
     void Start()
     {
@@ -101,6 +104,8 @@ public class NewBehaviourScript : MonoBehaviour
 
         if (other.CompareTag("Player"))
         {
+            audioSource.pitch = Random.Range(0.8f, 1.2f);
+            audioSource.PlayOneShot(pinkStarDeathSound, 0.3f);
             other.GetComponent<Rigidbody2D>().velocity = new Vector2(other.GetComponent<Rigidbody2D>().velocity.x, 0);
             other.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, bounciness));
             anim.SetTrigger("Hit");
@@ -118,7 +123,7 @@ public class NewBehaviourScript : MonoBehaviour
             anim.SetTrigger("Dead");
             moveSpeed = 0;
             audioSource.pitch = Random.Range(0.8f, 1.2f);
-            audioSource.PlayOneShot(attackHitSound, 0.3f);
+            audioSource.PlayOneShot(attackHitSound, 0.35f);
         }
     }
     

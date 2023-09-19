@@ -11,10 +11,11 @@ public class QuestChecked : MonoBehaviour
     [SerializeField] private float timeToLoad = 3.0f;
     [SerializeField] private AudioClip doorOpeningSound;
     [SerializeField] private AudioClip chestOpeningSound;
+    
     private AudioSource audioSource;
-
     private Animator anim;
     private bool levelIsLoading = false;
+
     private void Start()
     {
         anim = GetComponent<Animator>();

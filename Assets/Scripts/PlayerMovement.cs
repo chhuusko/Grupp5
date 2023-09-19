@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private AudioClip pickupPowerUpSound;
     [SerializeField] private AudioClip pickupPotionSound;
     [SerializeField] private AudioClip takeDamageSound;
+    [SerializeField] private AudioClip deathSound;
     [SerializeField] private AudioClip[] jumpSounds;
     [SerializeField] private GameObject keyParticles, dustParticles;
     [SerializeField] private bool doubleJumpSkill;
@@ -37,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
     public float delay = 3;
     float timer;
     private bool isDead = false;
+    private bool dead = false;
 
     private Rigidbody2D rgbd;
     private SpriteRenderer rend;
@@ -164,18 +166,29 @@ public class PlayerMovement : MonoBehaviour
 
     public void TakeDamage(int damageTaken)
     {
-        currentHealth -= damageTaken;
-        UpdateHealthBar();
-        anim.SetTrigger("Hit");
-        audioSource.pitch = Random.Range(0.8f, 1.2f);
-        audioSource.PlayOneShot(takeDamageSound, 1);
+        if (dead == false) 
+        { 
+            currentHealth -= damageTaken;
+            UpdateHealthBar();
+            anim.SetTrigger("Hit");
+            audioSource.pitch = Random.Range(0.8f, 1.2f);
+            audioSource.PlayOneShot(takeDamageSound, 1);
+        }
+        else
+        {
+            return;
+        }
 
         if (currentHealth <= 0)
         {
+            dead = true; 
+
             if (!isDead)
             {
-                anim.SetTrigger("Dead");
+                audioSource.pitch = Random.Range(0.9f, 1.1f);
+                audioSource.PlayOneShot(deathSound, 5f);
                 isDead = true;
+                anim.SetTrigger("Dead");
             }
             
         }
@@ -205,6 +218,7 @@ public class PlayerMovement : MonoBehaviour
         transform.position = spawnPosition.position;
         rgbd.velocity  = Vector2.zero;
         isDead = false;
+        dead = false;
     }
 
     private void RestoreHealth(GameObject redPotion)

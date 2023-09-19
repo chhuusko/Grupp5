@@ -7,6 +7,7 @@ public class Spikes : MonoBehaviour
     [SerializeField] private int damageDealt;
     [SerializeField] private float jumpForce;
     [SerializeField] private AudioClip spikesSound;
+    
     private AudioSource audioSource;
     private void Start()
     {

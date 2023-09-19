@@ -9371,7 +9371,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 767a68b8ee7bc73418e0990d27b6940d, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.25
+  m_Volume: 0.17
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -39447,6 +39447,7 @@ MonoBehaviour:
   levelToLoad: 2
   timeToLoad: 3
   doorOpeningSound: {fileID: 8300000, guid: 74d522a3158fc89439492c2f3362ec6e, type: 3}
+  chestOpeningSound: {fileID: 0}
 --- !u!82 &1146934779
 AudioSource:
   m_ObjectHideFlags: 0
@@ -72455,6 +72456,7 @@ MonoBehaviour:
   pickupPowerUpSound: {fileID: 8300000, guid: f7befda71afc31841a78aafecc2c0789, type: 3}
   pickupPotionSound: {fileID: 8300000, guid: e76ab69de42e46546abfe5079811d974, type: 3}
   takeDamageSound: {fileID: 8300000, guid: cad707f38bf5cad4abd3da6cc5e49b63, type: 3}
+  deathSound: {fileID: 8300000, guid: 4ec9dfa8f92bdc743966785274e41a31, type: 3}
   jumpSounds:
   - {fileID: 8300000, guid: dc22e2b83dc30c248940120bda78f942, type: 3}
   - {fileID: 8300000, guid: c00c6c8ea7c491548b2ee325377e7e26, type: 3}
