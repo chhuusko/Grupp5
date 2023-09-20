@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class DoorClosing : MonoBehaviour
-{ 
-    private AudioSource audioSource;
+{
     [SerializeField] private AudioClip doorClosingSound;
+    
+    private AudioSource audioSource;
     private Animator anim;
 
 

@@ -9,11 +9,13 @@ public class QuestChecked : MonoBehaviour
     [SerializeField] private int questGoal = 10;
     [SerializeField] private int levelToLoad;
     [SerializeField] private float timeToLoad = 3.0f;
-    private AudioSource audioSource;
     [SerializeField] private AudioClip doorOpeningSound;
-
+    [SerializeField] private AudioClip chestOpeningSound;
+    
+    private AudioSource audioSource;
     private Animator anim;
     private bool levelIsLoading = false;
+
     private void Start()
     {
         anim = GetComponent<Animator>();
@@ -40,9 +42,11 @@ public class QuestChecked : MonoBehaviour
                     
                                
                 if (SceneManager.GetActiveScene().buildIndex == 2)
+                {
                     anim.SetTrigger("Chest");
-                
-                
+                    audioSource.PlayOneShot(chestOpeningSound, 0.3f);
+                }
+
                 Invoke("LoadNextLevel", timeToLoad);
                 levelIsLoading = true;
                 

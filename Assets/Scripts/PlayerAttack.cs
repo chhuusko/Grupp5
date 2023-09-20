@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
+    [SerializeField] private AudioClip attackHitSound;
+    [SerializeField] private AudioClip[] attackSounds;
+    
     private GameObject attackArea = default;
-
     private bool attacking = false;
-
     private float timeToAttack = 0.1f;
     private float timer = 0.1f;
     private AudioSource audioSource;
-    [SerializeField] private AudioClip attackHitSound;
-    [SerializeField] private AudioClip[] attackSounds;
+    
 
 
     void Start()
@@ -28,7 +28,7 @@ public class PlayerAttack : MonoBehaviour
         {
             Attack();
             int randomValue = Random.Range(0, attackSounds.Length);
-            audioSource.PlayOneShot(attackSounds[randomValue], 0.20f);
+            audioSource.PlayOneShot(attackSounds[randomValue], 0.35f);
         }
 
         if (attacking)

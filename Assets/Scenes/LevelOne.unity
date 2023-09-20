@@ -9371,7 +9371,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 767a68b8ee7bc73418e0990d27b6940d, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.25
+  m_Volume: 0.17
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -18716,6 +18716,7 @@ GameObject:
   - component: {fileID: 568062091}
   - component: {fileID: 568062090}
   - component: {fileID: 568062092}
+  - component: {fileID: 568062093}
   m_Layer: 0
   m_Name: Killzone
   m_TagString: Untagged
@@ -18796,6 +18797,103 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPosition: {fileID: 1991000550}
+  killzoneSound: {fileID: 8300000, guid: e46832572d4b6074c869d6907f112bd6, type: 3}
+--- !u!82 &568062093
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568062089}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &568590595
 GameObject:
   m_ObjectHideFlags: 0
@@ -39349,6 +39447,7 @@ MonoBehaviour:
   levelToLoad: 2
   timeToLoad: 3
   doorOpeningSound: {fileID: 8300000, guid: 74d522a3158fc89439492c2f3362ec6e, type: 3}
+  chestOpeningSound: {fileID: 0}
 --- !u!82 &1146934779
 AudioSource:
   m_ObjectHideFlags: 0
@@ -67652,6 +67751,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chainPulledSound: {fileID: 8300000, guid: 017861525ca2da9458aa7d4756599ab2, type: 3}
+  pillarThumpSound: {fileID: 8300000, guid: 122efa2c012184943900908806010f1a, type: 3}
 --- !u!82 &1467939767
 AudioSource:
   m_ObjectHideFlags: 0
@@ -72355,12 +72455,13 @@ MonoBehaviour:
   pickupKeySound: {fileID: 8300000, guid: 967524a7496dbe04d86d4761808f9c9b, type: 3}
   pickupPowerUpSound: {fileID: 8300000, guid: f7befda71afc31841a78aafecc2c0789, type: 3}
   pickupPotionSound: {fileID: 8300000, guid: e76ab69de42e46546abfe5079811d974, type: 3}
+  takeDamageSound: {fileID: 8300000, guid: cad707f38bf5cad4abd3da6cc5e49b63, type: 3}
+  deathSound: {fileID: 8300000, guid: 4ec9dfa8f92bdc743966785274e41a31, type: 3}
   jumpSounds:
   - {fileID: 8300000, guid: dc22e2b83dc30c248940120bda78f942, type: 3}
   - {fileID: 8300000, guid: c00c6c8ea7c491548b2ee325377e7e26, type: 3}
   - {fileID: 8300000, guid: 52fda7e31122cd442886a506c2b78412, type: 3}
   - {fileID: 8300000, guid: 677819ee63e6a2844bbfd63c69c3bae9, type: 3}
-  - {fileID: 8300000, guid: d77a3c0af4dbd1342b741409156bc2a0, type: 3}
   keyParticles: {fileID: 797759178336908839, guid: a2541c33a516f3348896d18318394bce, type: 3}
   dustParticles: {fileID: 38111291199769779, guid: 75448c714683a334892855c0852bab30, type: 3}
   doubleJumpSkill: 0

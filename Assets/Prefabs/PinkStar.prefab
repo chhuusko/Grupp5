@@ -132,6 +132,7 @@ MonoBehaviour:
   damageDealt: 1
   data: {fileID: 11400000, guid: 54282e7910033d542b277a82062669e8, type: 2}
   attackHitSound: {fileID: 8300000, guid: aaaf07f556901f44ea1bbe81c424f2b4, type: 3}
+  pinkStarDeathSound: {fileID: 8300000, guid: 8b459726e88d4224f95a1ff81f23ae47, type: 3}
 --- !u!50 &11024188107470015
 Rigidbody2D:
   serializedVersion: 4
