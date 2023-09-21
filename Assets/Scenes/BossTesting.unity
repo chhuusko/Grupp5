@@ -159,6 +159,37 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &166236561
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 166236562}
+  m_Layer: 0
+  m_Name: SpawnPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &166236562
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166236561}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -11.82, y: -2.89, z: -0.057121858}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &280514027
 GameObject:
   m_ObjectHideFlags: 0
@@ -3348,6 +3379,7 @@ GameObject:
   - component: {fileID: 1474617832}
   - component: {fileID: 1474617833}
   - component: {fileID: 1474617834}
+  - component: {fileID: 1474617835}
   m_Layer: 0
   m_Name: Crabby
   m_TagString: Boss
@@ -3529,6 +3561,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1609025717}
   isFlipped: 0
+--- !u!114 &1474617835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474617826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fc21acc7ea376b4592a2c0190a4ae2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackRange: 1
+  attackDamage: 1
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!1 &1570135282
 GameObject:
   m_ObjectHideFlags: 0
@@ -3759,13 +3808,15 @@ MonoBehaviour:
   jumpForce: 525
   leftFoot: {fileID: 1813642787}
   rightFoot: {fileID: 1747328345}
-  spawnPosition: {fileID: 0}
+  spawnPosition: {fileID: 166236562}
   whatIsGround:
     serializedVersion: 2
     m_Bits: 1088
   pickupKeySound: {fileID: 0}
   pickupPowerUpSound: {fileID: 0}
   pickupPotionSound: {fileID: 0}
+  takeDamageSound: {fileID: 0}
+  deathSound: {fileID: 0}
   jumpSounds:
   - {fileID: 8300000, guid: dc22e2b83dc30c248940120bda78f942, type: 3}
   - {fileID: 8300000, guid: c00c6c8ea7c491548b2ee325377e7e26, type: 3}
@@ -4124,3 +4175,4 @@ SceneRoots:
   - {fileID: 280514029}
   - {fileID: 691970493}
   - {fileID: 1474617831}
+  - {fileID: 166236562}
