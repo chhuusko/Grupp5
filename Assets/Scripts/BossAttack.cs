@@ -4,24 +4,26 @@ using UnityEngine;
 
 public class BossAttack : MonoBehaviour
 {
+    public float attackRange = 2.0f; // Adjust this based on your game's requirements.
+    public int attackDamage = 2;    // The damage the boss deals to the player.
+    public LayerMask playerLayer;    // Set this to the layer that the player is on.
 
-    public int attackDamage = 1;
-
-    public Vector3 attackOffset;
-    public float attackRange = 1f;
-    public LayerMask attackMask;
-
-    public void Awake()
+    private void PerformAttack()
     {
-        Vector3 pos = transform.position;
-        pos += transform.right * attackOffset.x;
-        pos += transform.forward * attackOffset.y;
+        // Perform your boss's attack logic here.
 
-        Collider2D colInfo = Physics2D.OverlapCircle(pos, attackRange, attackMask);
-        if (colInfo != null)
+        // Check for the player in range.
+        Collider2D[] hitPlayers = Physics2D.OverlapCircleAll(transform.position, attackRange, playerLayer);
+
+        // Deal damage to all hit players.
+        foreach (Collider2D playerCollider in hitPlayers)
         {
-           // (lägg in rätt namn på healthsystemet) colInfo.GetComponent<PlayerHealth>().TakeDamage(attackDamage);
+            PlayerMovement player = playerCollider.GetComponent<PlayerMovement>();
+            if (player != null)
+            {
+                // Deal damage to the player.
+                player.TakeDamage(attackDamage);
+            }
         }
-
     }
 }
