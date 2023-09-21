@@ -43,6 +43,6 @@ public class Boss_Movement : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        animator.ResetTrigger("Attack");
+        animator.ResetTrigger("Attack"); // This is to ensure that the animation triggers once and then resets.
     }
 }
