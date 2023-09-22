@@ -54,6 +54,13 @@ public class QuestChecked : MonoBehaviour
                     audioSource.PlayOneShot(doorOpeningSound, 0.5f);
                 }
 
+                if (SceneManager.GetActiveScene().buildIndex == 4)
+                {
+                    anim.SetTrigger("Door");
+                    audioSource.pitch = Random.Range(0.7f, 1.1f);
+                    audioSource.PlayOneShot(doorOpeningSound, 0.5f);
+                }
+
                 Invoke("LoadNextLevel", timeToLoad);
                 levelIsLoading = true;
                 

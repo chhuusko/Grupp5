@@ -90980,7 +90980,7 @@ MonoBehaviour:
   finishedText: {fileID: 147754221}
   unfinishedText: {fileID: 389654003}
   questGoal: 0
-  levelToLoad: 3
+  levelToLoad: 4
   timeToLoad: 3
   doorOpeningSound: {fileID: 8300000, guid: 74d522a3158fc89439492c2f3362ec6e, type: 3}
   chestOpeningSound: {fileID: 0}
