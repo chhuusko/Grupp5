@@ -142,6 +142,7 @@ public class PlayerMovement : MonoBehaviour
             RestoreHealth(other.gameObject);
         }
 
+
         if (other.CompareTag("JumpPowerUp"))
         {
             audioSource.pitch = Random.Range(0.8f, 1.2f);
