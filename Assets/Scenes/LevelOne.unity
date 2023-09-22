@@ -39443,7 +39443,7 @@ MonoBehaviour:
   dialogueBox: {fileID: 609813424}
   finishedText: {fileID: 1407475461}
   unfinishedText: {fileID: 1073625481}
-  questGoal: 0
+  questGoal: 10
   levelToLoad: 2
   timeToLoad: 3
   doorOpeningSound: {fileID: 8300000, guid: 74d522a3158fc89439492c2f3362ec6e, type: 3}
