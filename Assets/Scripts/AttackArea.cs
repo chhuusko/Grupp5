@@ -8,11 +8,19 @@ public class AttackArea : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.GetComponent<Health>() != null)
+        // Check if the colliding GameObject has a Health or BossHealth component
+        Health health = other.GetComponent<Health>();
+        BossHealth bossHealth = other.GetComponent<BossHealth>();
+
+        if (health != null)
         {
-            Health health = other.GetComponent<Health>();
+            // It's a regular enemy or player
             health.Damage(damage);
-           
+        }
+        else if (bossHealth != null)
+        {
+            // It's the boss
+            bossHealth.takeDamage(damage);
         }
     }
 }

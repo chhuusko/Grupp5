@@ -21,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private AudioClip[] jumpSounds;
     [SerializeField] private GameObject keyParticles, dustParticles;
     [SerializeField] private bool doubleJumpSkill;
+ 
 
     [SerializeField] private Slider healthSlider;
     [SerializeField] private Image fillColor;
@@ -44,6 +45,7 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer rend;
     private Animator anim;
     private AudioSource audioSource;
+   
 
     // Start is called before the first frame update
     void Start()
@@ -98,7 +100,7 @@ public class PlayerMovement : MonoBehaviour
         anim.SetFloat("VerticalSpeed", rgbd.velocity.y);
         anim.SetBool("IsGrounded", CheckIfGrounded());
 
-        if (scene == 3)
+        if (scene == 3 || scene == 4)
         {
             if (Input.GetMouseButtonDown(0))
             {
@@ -291,4 +293,6 @@ public class PlayerMovement : MonoBehaviour
             return false;
         }
     }
+
+    
 }
