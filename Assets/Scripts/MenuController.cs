@@ -5,12 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {
-    [SerializeField] private GameObject creditsPanel;   
-
+    [SerializeField] private GameObject creditsPanel;
+    [SerializeField] private AudioSource audioSource;
 
     public void StartGame()
     {
         SceneManager.LoadScene(1);
+    }
+
+    public void InvokeStartGame()
+    {
+        Invoke("StartGame", 1);
     }
 
     public void QuitGame() 
@@ -28,6 +33,10 @@ public class MenuController : MonoBehaviour
         creditsPanel.SetActive(false);
     }
 
+    public void InvokeCloseCredits()
+    {
+        Invoke("CloseCredits", 0.2f);
+    }
 
 }
 
