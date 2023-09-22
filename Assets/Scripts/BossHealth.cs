@@ -30,6 +30,7 @@ public class BossHealth : MonoBehaviour
 
     private void Die()
     {
-        gameObject.SetActive(false);
+        GetComponent<Animator>().SetTrigger("BossDeath");
+        Destroy(gameObject, 2f);
     }
 }
