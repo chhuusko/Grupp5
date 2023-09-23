@@ -770,7 +770,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 30.000061, y: -30.00003}
+  m_AnchoredPosition: {x: 30, y: -30}
   m_SizeDelta: {x: 300, y: 75}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &336725146
@@ -1828,7 +1828,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59670745e7596e14c908f1211caa407e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endGameSound: {fileID: 8300000, guid: 88f3d477513c8c049a42c33764c77691, type: 3}
   maxHealth: 20
   currentHealth: 0
   healthBar: {fileID: 1663182165}
@@ -1849,9 +1848,9 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 512
-  knockbackForce: 1000
-  upwardForce: 500
-  attackSound: {fileID: 0}
+  knockbackForce: 800
+  upwardForce: 400
+  attackSound: {fileID: 8300000, guid: 2473b3ddb7b793f4598482c2252949e6, type: 3}
 --- !u!114 &1359979069
 MonoBehaviour:
   m_ObjectHideFlags: 0
