@@ -9,8 +9,8 @@ public class PlayerAttack : MonoBehaviour
     
     private GameObject attackArea = default;
     private bool attacking = false;
-    private float timeToAttack = 0.1f;
-    private float timer = 0.1f;
+    private float timeToAttack = 0.5f;
+    private float timer = 0.5f;
     private AudioSource audioSource;
     
 

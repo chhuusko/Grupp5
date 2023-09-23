@@ -17,9 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LevelThree.unity
     guid: 3a6cbcbb8684d9b448e03b0cefbfaa5e
-  - enabled: 0
-    path: Assets/Scenes/BossTesting_v3.unity
-    guid: 23aa994c4869884418ecd4dc992569f8
   - enabled: 1
     path: Assets/Scenes/BossFight.unity
     guid: d2160fb2caad043faa0b0769914d040e

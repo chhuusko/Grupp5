@@ -11,7 +11,7 @@ public class QuestChecked : MonoBehaviour
     [SerializeField] private float timeToLoad = 3.5f;
     [SerializeField] private AudioClip doorOpeningSound;
     [SerializeField] private AudioClip chestOpeningSound;
-    
+
     private AudioSource audioSource;
     private Animator anim;
     private Animator animExitDoor;
@@ -64,7 +64,8 @@ public class QuestChecked : MonoBehaviour
                 {
                     anim.SetTrigger("Door");
                     audioSource.pitch = Random.Range(0.7f, 1.1f);
-                    audioSource.PlayOneShot(doorOpeningSound, 0.5f);
+                    audioSource.PlayOneShot(doorOpeningSound, 0.4f);
+                   
                 }
 
                 Invoke("LoadNextLevel", timeToLoad);

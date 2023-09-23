@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BossHealth : MonoBehaviour
 {
-
     public int maxHealth = 20;
     public int currentHealth;
+    private AudioSource audioSource;
 
     public BossHealthBar healthBar;
 
@@ -15,6 +16,7 @@ public class BossHealth : MonoBehaviour
     {
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
+     
     }
 
     public void takeDamage(int damage)
@@ -30,7 +32,15 @@ public class BossHealth : MonoBehaviour
 
     private void Die()
     {
+        Invoke("InvokeStartMenu", 2);
         GetComponent<Animator>().SetTrigger("BossDeath");
-        Destroy(gameObject, 2f);
+        Destroy(gameObject, 2);
+
     }
+    
+    private void InvokeStartMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
+
 }
