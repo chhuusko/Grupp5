@@ -2617,7 +2617,7 @@ Animator:
   m_GameObject: {fileID: 63202267}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a8c4b85d9ce5c1845a03557ad1e6aa38, type: 2}
+  m_Controller: {fileID: 9100000, guid: 99a943c4b909bdc4c956887cd61a484c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2674,7 +2674,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -22301,7 +22301,7 @@ Animator:
   m_GameObject: {fileID: 643200538}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a8c4b85d9ce5c1845a03557ad1e6aa38, type: 2}
+  m_Controller: {fileID: 9100000, guid: 99a943c4b909bdc4c956887cd61a484c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -22358,7 +22358,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -56904,7 +56904,7 @@ Animator:
   m_GameObject: {fileID: 1033262797}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a8c4b85d9ce5c1845a03557ad1e6aa38, type: 2}
+  m_Controller: {fileID: 9100000, guid: 99a943c4b909bdc4c956887cd61a484c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -56961,7 +56961,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -69661,7 +69661,7 @@ Animator:
   m_GameObject: {fileID: 1361564295}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a8c4b85d9ce5c1845a03557ad1e6aa38, type: 2}
+  m_Controller: {fileID: 9100000, guid: 99a943c4b909bdc4c956887cd61a484c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -69718,7 +69718,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -81707,7 +81707,7 @@ Animator:
   m_GameObject: {fileID: 1711419521}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a8c4b85d9ce5c1845a03557ad1e6aa38, type: 2}
+  m_Controller: {fileID: 9100000, guid: 99a943c4b909bdc4c956887cd61a484c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -81764,7 +81764,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -81813,7 +81813,7 @@ Animator:
   m_GameObject: {fileID: 1712794424}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a8c4b85d9ce5c1845a03557ad1e6aa38, type: 2}
+  m_Controller: {fileID: 9100000, guid: 99a943c4b909bdc4c956887cd61a484c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -81870,7 +81870,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -94935,7 +94935,7 @@ Animator:
   m_GameObject: {fileID: 1986582216}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a8c4b85d9ce5c1845a03557ad1e6aa38, type: 2}
+  m_Controller: {fileID: 9100000, guid: 99a943c4b909bdc4c956887cd61a484c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -94992,7 +94992,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -96883,7 +96883,7 @@ Animator:
   m_GameObject: {fileID: 2043139843}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a8c4b85d9ce5c1845a03557ad1e6aa38, type: 2}
+  m_Controller: {fileID: 9100000, guid: 99a943c4b909bdc4c956887cd61a484c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -96940,7 +96940,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -100979,6 +100979,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window
       objectReference: {fileID: 0}
+    - target: {fileID: 7902678230250843167, guid: 9e88f6fb51a59024593bca550c1cd1e9, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 99a943c4b909bdc4c956887cd61a484c, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
